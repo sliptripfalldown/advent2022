@@ -1,8 +1,9 @@
-#!/usr/local/bin/env python3
+#!/usr/bin/env python3
 
 ledger = open('../input.txt').read()
 elvesRaw = ledger.split("\n\n")
 elves = []
+
 for elf in elvesRaw:
     e = sum(int(i) for i in elf.splitlines())
     elves.append(e)

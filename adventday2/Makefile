@@ -16,10 +16,10 @@ python: ## Runs Python version of Advent of Code
 > @cd ./python && python3 main.py
 .PHONY: python
 
-rust: ## Runs Rust version of Advent of Code
-> @cd ./rust && rustc main.rs && ./main.exe
-.PHONY: clean rust
+#rust: ## Runs Rust version of Advent of Code
+#> @cd ./rust && rustc main.rs && ./main.exe
+#.PHONY: clean rust
 
-clean: ## Cleans all project folders
-> @cd ./rust && rm main.exe main.pdb
-.PHONY: clean
+#clean: ## Cleans all project folders
+#> @cd ./rust && rm main.exe main.pdb
+#.PHONY: clean
