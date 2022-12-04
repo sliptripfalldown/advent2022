@@ -1,0 +1,6 @@
+# github.com/juliangruber/go-intersect v1.1.0
+## explicit; go 1.14
+# golang.org/x/exp v0.0.0-20221204150635-6dcec336b2bb
+## explicit; go 1.18
+golang.org/x/exp/constraints
+golang.org/x/exp/slices
