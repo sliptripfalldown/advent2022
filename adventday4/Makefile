@@ -12,9 +12,9 @@ go: ## Runs Go version of Advent of Code
 > @cd ./go && go run main.go
 .PHONY: go
 
-python: ## Runs Python version of Advent of Code
-> @cd ./python && python3 main.py
-.PHONY: python
+#python: ## Runs Python version of Advent of Code
+#> @cd ./python && python3 main.py
+#.PHONY: python
 
 #rust: ## Runs Rust version of Advent of Code
 #> @cd ./rust && rustc main.rs && ./main.exe
