@@ -8,7 +8,7 @@ import (
 
 func main() {
 	data, _ := os.ReadFile("../input.txt")
-	commands := strings.Split(string(data), "\n")
+	commands := strings.Split(string(data), "\n\n")
 
 	part1Results := part1(commands)
 	part2Results := part2(commands)
